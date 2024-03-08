@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
-import { FirstComponent } from './first/first.component';
 
 @Component({
   selector: 'app-root',
@@ -11,4 +10,5 @@ import { FirstComponent } from './first/first.component';
 })
 export class AppComponent {
   title = 'angular-routing';
+  showLinks = true;  
 }
